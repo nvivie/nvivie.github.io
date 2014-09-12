@@ -1,22 +1,6 @@
-$(function(){
+$(window).load(function() {
 	'use strict';
-	// boucing scroll down
-	//setInterval helps calling code snippet repeatdly
-	// var intervalBoucingButton = setInterval(function(){
-	// 	$(".scroll-down").effect("bounce", {times: 1 , distance: 10}, 1500);
-	// 	console.log('bounce');
-	// }, 1500);
 
-
-	// $('.scroll-down').click(function(e){
-	// 	// prevent default action of the event
-	// 	e.preventDefault();
-	// 	// console.log('Hello');
-	// 	var n = $(document).height();
-	// 	$('html,body').animate({scrollTop: n}, 100);
-	// 	//stop the boucing button
-	// 	//clearInterval(intervalBoucingButton);
-	// });
 
 	$('#multiscroll').multiscroll({
 	verticalCentered : true,
