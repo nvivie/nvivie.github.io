@@ -1,0 +1,42 @@
+.left li span{
+	display: inline-block;
+	position: relative;
+	color: hsla(0,0%,0%,0.6);
+	transform-style: preserve-3d;
+	perspective: 550px;
+	z-index: 1;
+}
+
+.left li span:before,
+.left li span:after{
+	position: absolute;
+	/*content: url(images/Vilogo.svg);*/
+	line-height: inherit;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	transition: all 0.3s;
+}
+
+.left li span:before{
+	text-shadow:0;
+	color: hsla(0,0%,0%,0.12);
+}
+
+.letter span:before,
+.letter span:after {
+    transform-origin: 0 50%;
+}
+
+.letter span:before {
+    transform: scale(1.08, 1) skew(0deg, 1deg);
+}
+ 
+.letter span:after {
+    text-shadow: 
+        -1px 0px 0px hsla(360, 100%, 100%, 0.1), 
+        3px 0px 1px hsla(0, 0%, 0%, 0.4);
+    transform: rotateY(-15deg);
+}

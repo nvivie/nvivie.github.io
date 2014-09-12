@@ -1,0 +1,194 @@
+ /********* -----INTERACTIVE PAGE -----**********/
+@import url(http://fonts.googleapis.com/css?family=Metrophobic);
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Metrophobic', sans-serif;
+ 
+/*  height: 100%;
+  width: 100%;*/
+}
+
+.gallery {
+	width: 100%;
+	height: auto;
+}
+
+.gallery li {
+	width: 25%;
+	vertical-align: middle;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.gallery a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.gallery img {
+	position: relative;
+	width: 100%; /*for bigger screen*/
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+#presentation-wrapper{
+	width: 50%;
+	margin-top: 12%;
+	/*height: 345px;*/
+	text-align: center;
+	position: relative;
+	background-color: white;
+	/*overflow: hidden;*/
+
+	vertical-align: middle;
+	/*border: 1px solid red;*/
+	/*border-color: orange;
+	border-style: dotted;*/
+}
+
+#presentation2-wrapper{
+	width: 50%;
+	margin-top: 8%;
+	/*height: 345px;*/
+	text-align: center;
+	position: relative;
+	background-color: white;
+	/*overflow: hidden;*/
+
+	vertical-align: middle;
+	/*border: 1px solid red;*/
+	/*border-color: orange;
+	border-style: dotted;*/
+}
+
+
+
+.presentation{
+
+	width: 70%;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+/********* -----MOUSE HOVER OVER IMG-LIST -----**********/
+
+.img-list{
+	/*border: 1px black solid;*/
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left:0; 
+
+
+}
+
+img .img-list{
+	width: 100%;
+}
+
+ul.img-menu li{
+	position: relative;
+	width: 25%;
+	bottom: 0;
+	display: table-cell;
+	
+}
+
+span.text-content { /*outer span*/
+	position: absolute;
+	background:rgba(9,1,42,0.9);
+	width:100%;
+	height: 100%;
+	padding-top: 50%;
+	/*display: table;*/
+	cursor: pointer;
+	left:0;
+	top: 0;
+	opacity: 0;
+	margin: 0 auto;
+	text-align: center;
+	/*ASK ??????	*/
+	-webkit-transition: opacity 500ms;
+  	-moz-transition: opacity 500ms;
+  	-o-transition: opacity 500ms;
+  	transition: opacity 500ms;
+  	/*border: 1px blue dotted;*/
+}
+
+
+span.text-content span{ /*inner span*/
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+	color: white;
+	display:inline-block;
+  	/*border: 1px aqua dotted;*/
+}
+
+ul.img-menu li:hover span.text-content{
+	opacity: 1;
+}
+
+
+/*PROJECT LIST EFFECT: DROPPING LINE*/
+span.cl-effect-6 {
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+
+span.cl-effect-6::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  transition: top 0.3s;
+}
+
+span.cl-effect-6::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+ span.cl-effect-6:hover::before {
+  top: 100%;
+  opacity: 1;
+/*  transform: skew(-14deg);*/
+}
+
+ span.cl-effect-6:hover::after {
+  height: 100%;
+  /*transform: skew(-14deg);*/
+} 
+
+
+
+
+
+
+
+

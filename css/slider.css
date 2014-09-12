@@ -1,0 +1,565 @@
+
+@import url(http://fonts.googleapis.com/css?family=Metrophobic);
+body {
+    /*background: url('images/sexy-girl-listening.jpg') no-repeat fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Metrophobic', sans-serif;
+}
+/**************************** SLIDER IMAGES **********************************/
+.slider-wrapper{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+}
+
+/*/ get the poster full screen no crop*/
+.slider-poster { 
+	height: 100%;
+	background-image: ;
+	background-repeat: no-repeat;
+  background-position:  50% 50% ; 
+ 	background-attachment: fixed;
+  background-size: contain;
+}
+
+#slider-content {
+	text-align: center;
+	position:relative;
+	width: 100%;
+	height: 100%;
+}
+
+#slider {
+
+	width:100%; 
+	height:100%; 
+	
+	top: 0;
+	left: 0;
+	text-align: center;
+	margin:0 auto;
+	max-width: 100%;
+
+}
+/*.sp {
+	width:100%; 
+	height:100%; 
+	position:relative;
+	text-align: center;
+	margin:0 auto;
+	-moz-background-size: auto 100%; 
+	max-height: 100%;
+
+}
+*/
+
+.slider-img {
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	display: block;
+	line-height: 0;
+	margin: 0 auto;
+}
+
+
+
+@media screen and(max-width: 1024px;){
+	img #slider-wrapper{
+		left: 50%;
+		margin-left: -512px;
+	}
+}
+
+
+
+
+
+
+
+
+/***************** BUTTON NEXT AND PREV ON THE SLIDER ****************/
+#nav-slider{
+	position: fixed;
+	z-index: 40;
+	width: 100%;
+	top: 50%;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+#button-previous {
+  background-image: url(../images/prev-button-01.svg);
+  top: 0;
+  width: 100%;
+  height: 100%;
+	float: left;
+	width: 64px;
+	height: 64px;
+/*	background: #2a2a2a;*/
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	opacity: 0.8;
+}
+
+#button-next:hover{
+	background-color: white;
+	color: black;
+	transition:all 0.3s ease;
+}
+
+#button-next {
+  background-image: url(../images/next-button-01.svg);
+	float: right;
+	width: 64px;
+	height:64px;
+/*	background: red;*/
+	color: white;
+	opacity: 0.8;
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+/************** VERTICAL NAVIGATION pages ********************/
+nav.control-right{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+
+}
+ #works-control{
+  top: 0;
+ 	height: 100%;
+ 	position: absolute;
+ 	right: 0;
+ 	z-index: 10;
+ }
+
+
+
+div.table{
+	margin-top: 8%;
+	height: 100%;
+	overflow: hidden;
+}
+.helper{
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+}
+
+div.control-content{
+	display: none;
+}
+
+.active-control{
+	position: relative;
+	z-index: 40;
+	background-color: #fbfbfb;
+	width: 150px;
+	height: 100%;
+	float: right;
+	color: white;
+	display: table;
+	opacity: 1;
+}
+
+
+a#all-projects{
+  color: #997F6A;
+}
+a#next-project{
+  color: #046370;
+}
+
+a#prev-project{
+  color: #B62347;
+}
+
+/****************** GREENPIZZ *****************/
+div#greenpizz-content-wrap{
+/*  float: left;*/
+  background: none repeat scroll 50% 50% rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+	z-index: 99;
+	width: 90%;
+	height: 50%;
+	top: 10%;
+/*	left: 20%;*/
+  position: relative;
+}
+
+
+#greenpizz-text{
+  float: left;
+  margin: 3%;
+  width: 40%;
+  height: auto;
+  text-align: left;
+	color: white;
+  padding: 30px;
+  background-image: url(../images/greenpizz/greenpizz-bg.jpg);
+  max-width: 50%;
+  max-height: 90%;
+  position: absolute;
+  font-size: 18px;
+}
+
+
+.greenpizz-mockup{
+  position: absolute;
+  float: left;
+  right: 10%;
+  display: inline-block;
+  width: 44%;
+  margin: 3%;
+}
+
+
+.greenpizz-app-logo{
+  position: absolute;
+  z-index: 109;
+  width: 100px;
+  height: 100px;
+  border: 1px solid transparent;
+  top: 53%;
+  left: 85%; 
+  color: white;
+
+}
+
+#greenpizz-mockup-menu{
+  float: left;
+  display: inline-block;
+}
+
+#greenpizz-mockup-gallery{
+  float: left;
+  display: inline-block;
+}
+#greenpizz-mockup-reservation{
+  float: left;
+  display: inline-block;
+}
+
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    div#greenpizz-content-wrap{
+  /*  float: left;*/
+    background: none repeat scroll 50% 50% rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    z-index: 99;
+    width: 75%;
+    height: 50%;
+    top: 10%;
+  /*  left: 20%;*/
+    position: relative;
+  }
+
+
+  #greenpizz-text{
+    float: left;
+    margin: 3%;
+    width: 40%;
+    height: auto;
+    text-align: left;
+    color: white;
+    padding: 30px;
+    background-image: url(../images/greenpizz/greenpizz-bg.jpg);
+    max-width: 50%;
+    max-height: 90%;
+    position: absolute;
+    font-size: 18px;
+  }
+
+
+  .greenpizz-mockup{
+    position: absolute;
+    float: left;
+    right: 10%;
+    display: inline-block;
+    width: 44%;
+    margin: 3%;
+  }
+
+
+  .greenpizz-app-logo{
+    position: absolute;
+    z-index: 109;
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    top: 53%;
+    left: 85%; 
+    color: white;
+
+  }
+
+  #greenpizz-mockup-menu{
+    float: left;
+    display: inline-block;
+  }
+
+  #greenpizz-mockup-gallery{
+    float: left;
+    display: inline-block;
+  }
+  #greenpizz-mockup-reservation{
+    float: left;
+    display: inline-block;
+  }
+}
+
+/****************** Large SCCREEN ***************/
+@media (min-width:1374px ) and (max-width :1823px){
+  #greenpizz-text{
+    font-size: 0.9rem;
+    border: 1px solid green;
+    max-width: 45%;
+  }
+
+   .greenpizz-mockup{
+    position: absolute;
+    float: left;
+    right: 10%;
+    display: inline-block;
+    width: 44%;
+    margin: 3%;
+  }
+  
+
+  #greenpizz-mockup-menu{
+    width: 180px;
+    float: left;
+    display: inline-block;
+  }
+
+  #greenpizz-mockup-gallery{
+     width: 180px;
+    float: left;
+    display: inline-block;
+  }
+  #greenpizz-mockup-reservation{
+      width: 180px;
+    float: left;
+    display: inline-block;
+  }
+}
+
+/****************** Medium SCCREEN ***************/
+@media (min-width:1024px ) and (max-width :1374px){
+   #greenpizz-text{
+    font-size: 0.8rem;
+    padding: 16px;
+    margin: 2%;
+  }
+
+  div#greenpizz-content-wrap{
+    top: 15%;
+    width: 75%;
+  }
+
+   .greenpizz-mockup{
+    top:-15%;
+    position: absolute;
+    float: left;
+    right: 10%;
+    display: inline-block;
+    width: 44%;
+    margin: 3%;
+  }
+  .greenpizz-app-logo{
+  width: 90px;
+  height: 90px;
+  top: 53%;
+  left: 88%; 
+  }
+
+
+  #greenpizz-mockup-menu{
+    width: 140px;
+    float: left;
+    display: inline-block;
+     
+
+  }
+
+  #greenpizz-mockup-gallery{
+    width: 140px;
+    float: left;
+    display: inline-block;
+    
+
+  }
+  #greenpizz-mockup-reservation{
+      width: 140px;
+    float: left;
+    display: inline-block;
+  }
+}
+
+/****************** small medium SCCREEN ***************/
+
+@media (min-width:768px ) and (max-width :1133px){
+  div#greenpizz-content-wrap{
+    top: 20%;
+  }
+
+
+  .greenpizz-app-logo{
+  width: 70px;
+  height: 70px;
+  top: 53%;
+  left: 77%; 
+  }
+
+   #greenpizz-text{
+    font-size: 0.7rem;
+  }
+
+   .greenpizz-mockup{
+    position: absolute;
+    float: left;
+    right: 10%;
+    display: inline-block;
+    width: 44%;
+    margin: 3%;
+  }
+
+
+  #greenpizz-mockup-menu{
+    width: 100px;
+    float: left;
+    display: inline-block;
+  }
+
+  #greenpizz-mockup-gallery{
+     width: 100px;
+    float: left;
+    display: inline-block;
+  }
+  #greenpizz-mockup-reservation{
+      width: 100px;
+    float: left;
+    display: inline-block;
+  }
+}
+
+/****************** Small SCCREEN ***************/
+
+@media(max-width :900px){
+  div#greenpizz-content-wrap{
+    top: 30%;
+    height: 40%;
+  }
+
+  .greenpizz-app-logo{
+  width: 50px;
+  height: 50px;
+  top: 53%;
+  left: 75%; 
+  }
+
+   #greenpizz-text{
+    font-size: 0.6rem;
+  }
+
+  .greenpizz-mockup{
+    position: absolute;
+    float: left;
+    right: 10%;
+    display: inline-block;
+    width: 44%;
+    margin: 3%;
+  }
+
+
+  #greenpizz-mockup-menu{
+    width: 80px;
+    float: left;
+    display: inline-block;
+  }
+
+  #greenpizz-mockup-gallery{
+     width: 80px;
+    float: left;
+    display: inline-block;
+  }
+  #greenpizz-mockup-reservation{
+      width: 80px;
+    float: left;
+    display: inline-block;
+  }
+}
+
+
+
+
+
+/***********************************TRUFFLE***********************************/
+.truffle-app-logo{
+    position: absolute;
+    z-index: 109;
+    width: 200px;
+    height: 200px;
+    border: 1px solid transparent;
+    top: 20%;
+    left: 55%; 
+    color: white;
+}
+
+
+/**********************************EXTRA PAGE*****************************/
+.button-extra{
+
+  width: 20%;
+  height: 5%;
+  background-color: #D03147;
+  margin:0 auto;
+  text-align: center;
+  top: 70%;
+  padding: 1px;
+}
+
+.button-extra:hover{
+background-color: #D03147;
+}
+
+.button-extra:focus{
+background-color: #D03147;
+}
+
+/**********************************TRUFFFLE PAGE*****************************/
+
+.button-truffle{
+
+  width: 100px;
+  height: 22px;
+  background-color: #046370;
+  margin:0 auto;
+  text-align: center;
+  top: 20%;
+  padding: 1px;
+}
+
+.button-truffle:hover{
+background-color: #046370;
+}
+.button-truffle:focus{
+background-color: #046370;
+}

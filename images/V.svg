@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" onmouseover="notify(this,'select');"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="409px" height="259px"
+	 viewBox="0 0 409 259" style="enable-background:new 0 0 409 259;" xml:space="preserve">
+<g id="V" onmouseover="yes">
+	<polygon style="fill:#9D3677;" points="171.033,62.814 214.525,93.118 227.713,141.101 	"/>
+	<polygon style="fill:#8B2869;" points="214.525,93.118 250.441,62.814 227.713,141.101 	"/>
+	<polygon style="fill:#B82040;" points="250.441,62.886 252.242,166.239 284.113,85.895 	"/>
+	<polygon style="fill:#005E67;" points="227.713,141.101 184.502,159.059 146.902,87.507 	"/>
+	<polygon style="fill:#00717E;" points="171.033,62.814 146.902,87.507 227.713,141.101 	"/>
+	<polygon style="fill:#ED335B;" points="227.713,141.101 184.502,159.059 220.697,195.815 253.27,164.39 	"/>
+	<polygon style="fill:#C62244;" points="250.441,62.814 250.461,63.656 252.686,164.39 227.713,141.101 	"/>
+	<polygon style="fill:#79162A;" points="146.902,87.507 175.943,171.685 184.502,159.059 	"/>
+	<polygon style="fill:#611021;" points="184.502,159.059 220.697,195.815 175.943,171.685 	"/>
+	<polygon style="fill:#004949;" points="252.686,164.39 254.369,178.7 220.697,195.815 	"/>
+	<polygon style="fill:#005F6B;" points="252.686,164.39 284.113,85.895 254.369,178.7 	"/>
+</g>
+<g>
+	<polyline style="fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-linecap:round;stroke-miterlimit:10;" points="
+		165.701,123.283 175.943,106.767 190.35,89.494 217.748,104.85 243.271,87.507 251.416,106.937 271.83,116.572 269.84,130.429 	"></polyline>
+	<polyline style="fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-linecap:round;stroke-miterlimit:10;" points="171.033,62.814 
+		183.182,111.567 172.846,136.877 173.729,165.262 	"/>
+	<polyline style="fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-linecap:round;stroke-miterlimit:10;" points="284.113,85.895 
+		252.686,123.283 227.713,141.101 200.09,174.887 198.32,183.75 	"/>
+	<polyline style="fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-linecap:round;stroke-miterlimit:10;" points="244.434,183.75 
+		242.135,174.756 207.125,149.656 195.668,119.847 199.373,101.957 214.525,93.118 	"/>
+	<polyline style="fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-linecap:round;stroke-miterlimit:10;" points="168.129,149.03 
+		170.488,132.391 227.713,141.101 251.9,147.426 264.295,135.396 261.381,156.826 	"/>
+</g>
+</svg>

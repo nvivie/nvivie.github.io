@@ -1,0 +1,367 @@
+ /********* -----INTERACTIVE PAGE -----**********/
+@import url(http://fonts.googleapis.com/css?family=Metrophobic);
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Metrophobic', sans-serif;
+
+/*  height: 100%;
+  width: 100%;*/
+}
+
+.gallery-about {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-about li {
+  width: 25%;
+  vertical-align: middle;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+.gallery-about a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.gallery-about img {
+  position: relative;
+  width: 100%; /*for bigger screen*/
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+#presentation-wrapper-about{
+  width: 50%;
+  margin-top: 8%;
+  /*height: 345px;*/
+  text-align: center;
+  position: relative;
+  background-color: white;
+  /*overflow: hidden;*/
+  vertical-align: middle;
+  /*border: 1px solid red;*/
+  /*border-color: orange;
+  border-style: dotted;*/
+}
+
+
+.presentation-about{
+  width: 70%;
+/*  border: 1px solid blue;*/
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+
+
+
+.resume-about{
+  width: 150px;
+  height: 100%;
+  position: relative;
+  text-align: center; 
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+
+/********* -----MOUSE HOVER OVER IMG-LIST -----**********/
+
+.img-list-about .resume-about{
+  /*border: 1px black solid;*/
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left:0; 
+}
+
+img .img-list-about{
+  width: 100%;
+
+}
+
+ul.img-menu-about li{
+  position: relative;
+  width: 25%;
+  bottom: 0;
+  display: table-cell;
+  
+}
+
+ul.img-menu2-about li{
+  position: relative;
+  width: 25%;
+  bottom: 0;
+  display: table-cell;
+  
+}
+
+ul.img-menu2-about li{
+  position: relative;
+  width: 20%;
+  bottom: 0;
+  display: table-cell;
+  
+}
+
+
+span.text-content { /*outer span*/
+  position: absolute;
+  background:rgba(9,1,42,0.9);
+  width:100%;
+  height: 100%;
+  padding-top: 50%;
+  /*display: table;*/
+  left:0;
+  top: 0;
+  opacity: 0;
+  margin: 0 auto;
+  text-align: center;
+  /*ASK ??????  */
+  -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    /*border: 1px blue dotted;*/
+}
+
+span.text-content2{ /*outer span*/
+  position: absolute;
+  background:rgba(9,1,42,0.9);
+  width:100%;
+  height: 100%;
+  padding-top: 20%;
+  /*display: table;*/
+  left:0;
+  top: 0;
+  opacity: 0;
+  margin: 0 auto;
+  text-align: center;
+  /*ASK ??????  */
+  -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    /*border: 1px blue dotted;*/
+}
+
+
+span.text-content span{ /*inner span*/
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  color: white;
+  display:inline-block;
+    /*border: 1px aqua dotted;*/
+}
+
+span.text-content2 span{ /*inner span*/
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  color: white;
+  display:inline-block;
+    /*border: 1px aqua dotted;*/
+}
+
+ul.img-menu-about li:hover span.text-content{
+  opacity: 1;
+}
+
+ul.img-menu2-about li:hover span.text-content2{
+  opacity: 1;
+}
+
+
+/********* SKILL: DROPPING LINE*/
+span.cl-effect-6 {
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+
+span.cl-effect-6::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  transition: top 0.3s;
+}
+
+span.cl-effect-6::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+ span.cl-effect-6:hover::before {
+  top: 100%;
+  opacity: 1;
+/*  transform: skew(-14deg);*/
+}
+
+ span.cl-effect-6:hover::after {
+  height: 100%;
+  /*transform: skew(-14deg);*/
+} 
+
+
+
+@media (min-width:1024px){
+
+  html,body{
+   /* border:1px solid red;*/
+  }
+
+  #presentation-wrapper-about{
+  margin-top: 5%;
+  }
+
+
+  .presentation-about{
+    font-size: 0.9rem;
+  }
+
+   .gallery-about li {
+  width: 15%;
+  width: 60%;
+  vertical-align: middle;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  }
+
+  span.text-content2 span{ /*inner span*/
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.8rem;
+  color: white;
+  display:inline-block;
+    /*border: 1px aqua dotted;*/
+  }
+
+
+}
+
+
+@media (min-width:1600px){
+
+  html,body{
+   /* border:1px solid red;*/
+  }
+
+  #presentation-wrapper-about{
+  margin-top: 5%;
+  }
+
+
+  .presentation-about{
+    font-size: 1.1rem;
+  }
+
+   .gallery-about li {
+  width: 15%;
+  width: 60%;
+  vertical-align: middle;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  }
+
+
+}
+
+
+/*******************RESUME DROPPING LINE****************/
+
+span.cl-effect-6-resume{
+  margin: 0 10px;
+ /* padding: 2px 4px;*/
+}
+
+span.cl-effect-6-resume::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #09012A;
+  content: '';
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  transition: top 0.3s;
+}
+
+span.cl-effect-6-resume::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background: #09012A;
+  content: '';
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+ span.cl-effect-6-resume:hover::before {
+  top: 100%;
+  opacity: 1;
+/*  transform: skew(-14deg);*/
+}
+
+ span.cl-effect-6-resume:hover::after {
+  height: 100%;
+  color: #b62347;
+  /*transform: skew(-14deg);*/
+} 
+
+
+/******************* END RESUME DROPPING LINE ****************/
+
+
+.about-svg{
+  text-align: center;
+  margin: 0 auto;
+/*  border:1px solid yellow;*/
+
+}
+
+#about-wrap{
+  border: 1px solid blue;
+  height: 600px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="201.5px" height="385.5px" viewBox="0 0 201.5 385.5" enable-background="new 0 0 201.5 385.5" xml:space="preserve">
+<g>
+	<g opacity="0.7">
+		<path opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="2.7883" stroke-miterlimit="10" enable-background="new    " d="
+			M179.084,13.27H23.51c-7.04,0-12.799,5.759-12.799,12.801v331.302c0,7.041,5.759,12.801,12.799,12.801h155.574
+			c7.041,0,12.805-5.76,12.805-12.801V26.07C191.889,19.029,186.125,13.27,179.084,13.27z M180.562,329.421H22.036v-281h158.525
+			V329.421L180.562,329.421z"/>
+		<path opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="2.7883" enable-background="new    " d="M85.882,31.927
+			c0,1.776-1.435,3.219-3.212,3.219c-1.771,0-3.218-1.443-3.218-3.219c0-1.775,1.447-3.221,3.218-3.221
+			C84.447,28.708,85.882,30.15,85.882,31.927z"/>
+		<g opacity="0.7">
+			<path fill="none" stroke="#FFFFFF" stroke-width="2.7883" stroke-miterlimit="10" d="M123.14,32.879
+				c0,0.86-0.702,1.564-1.562,1.564H94.309c-0.862,0-1.565-0.706-1.565-1.564V30.98c0-0.86,0.703-1.564,1.565-1.564h27.269
+				c0.86,0,1.562,0.704,1.562,1.564V32.879L123.14,32.879z"/>
+		</g>
+		<path opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="2.7883" stroke-miterlimit="10" enable-background="new    " d="
+			M112.202,350.041c0,6.019-4.884,10.902-10.905,10.902c-6.023,0-10.899-4.884-10.899-10.902c0-6.024,4.876-10.91,10.899-10.91
+			C107.318,339.131,112.202,344.017,112.202,350.041z"/>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="22.036" y="48.421" width="158.525" height="281"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  display="none" overflow="visible"/>
+			</clipPath>
+			<g transform="matrix(1 0 0 1 9.536743e-07 0)" clip-path="url(#SVGID_2_)" enable-background="new    ">
+				
+					<image overflow="visible" width="640" height="1136" xlink:href="photo2.png"  transform="matrix(0.2474 0 0 0.2474 22.54 48.4209)">
+				</image>
+			</g>
+		</g>
+	</g>
+	<path opacity="0.1" fill="#FFFFFF" enable-background="new    " d="M23.51,13.27c-7.04,0-12.799,5.759-12.799,12.801v331.302
+		c0,7.041,5.759,12.801,12.799,12.801h11.367L169.854,13.27H23.51z"/>
+</g>
+</svg>

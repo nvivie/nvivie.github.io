@@ -1,0 +1,262 @@
+@import url(http://fonts.googleapis.com/css?family=Metrophobic);
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 2000px;
+	width: 100%;
+  font-family: 'Metrophobic', sans-serif;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	/*border-style: solid;
+	border-color: aqua;*/
+
+}
+
+
+/**************************POLYGONE**************************/
+
+
+.print-polygon{
+margin: 0 auto;
+top: 8%;
+position: absolute;
+z-index: 99;
+text-align:center;
+ max-width: 100%;
+ width: 100%;
+}
+
+.interactive-polygon{
+margin: 0 auto;
+top: 55%;
+position: absolute;
+z-index: 99;
+text-align:center;
+ max-width: 100%;
+ width: 100%;
+}
+
+.hello{
+  /*display: none;*/
+  position: absolute;
+  z-index: 99;
+  width: 80%;
+  top: 30%;
+  left: 10%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+  /*transform: skew(10deg,-40deg );*/
+/*  border: 1px solid yellow;*/
+}
+
+#hello-svg{
+  width: 100%;
+  height: auto;
+}
+
+
+#contact-svg{
+  width: 100%;
+  height: auto;
+}
+
+#print-svg{
+  width: 100%;
+  height: auto;
+}
+
+#interactive-svg{
+  width: 100%;
+  height: auto;
+}
+
+.contact-polygon{
+  margin:0 auto;
+  text-align: center;
+  max-width: 100%;
+  min-width: 70%;
+  width: 100%;
+}
+
+
+
+
+ /************** HORIZONTAL Navigational bar + logo *********/
+
+#navigation-bar{
+	position:relative;
+	z-index: 5;
+}
+
+#nav-left{
+	background-color: #09012a;
+  height: 53px;
+}
+
+
+#nav-right {
+	background-color: #09012a;
+  height: 53px;
+}
+
+
+
+/*****------First Multiscroll band (BIG IMAGE)------*******/
+#image-home {
+	background-color: #09012a;
+	height: 700px;
+	width: 100%;
+}
+
+.ms-left .ms-section{
+	background-color: #09012a;
+}
+
+
+ .ms-right .ms-section{
+ 	background-color: white;
+}
+
+div.ms-right{
+  right: 0px !important;
+}
+
+.landscape{
+  position: relative;
+  width: 100%;
+  height: 100%;
+   /* Preserve aspet ratio */
+   max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+/*  background-size: auto;*/
+}
+
+.landscape-secondpage{
+width: 100%;
+}
+
+/*********PRINT- THUMBNAIL*******/
+
+.print-thumbnail{
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  top: 35%;
+  left: 35%;
+  transition: 0.3s ease;
+}
+
+
+/* .print-thumbnail:hover{
+
+  color: rgba(255,255,255, 0.1);
+  text-shadow: 0 0 1px rgba(255,255,255,0.4);
+  -shadow: 
+    0 0 5px rgba(255,255,255,0.2),
+    1px 1px 5px rgba(49,188,184,0.3),
+    -4px -1px 5px rgba(251,131,250,0.3);
+  }
+
+*/
+
+.interactive-thumbnail{
+ position: absolute;
+ margin:0 auto;
+ text-align: center;
+ top: 35%;
+ left:35%;
+/*border:1px solid aqua;*/
+}
+
+
+/*#Triangle:hover{
+
+    color: rgba(255, 255, 255,0.1);
+    text-shadow: 0 0 1px rgba(255, 255, 255,0.4);
+    box-shadow: 
+      0 0 5px rgba(255,255,255,0.2),
+      1px 1px 5px rgba(49, 188, 184,0.3),
+      -1px -1px 5px rgba(251, 131, 250,0.3);
+  
+}*/
+
+
+#dash-above  {
+ /* display: none; */}
+
+/**************END OF MULTISCROLL*********************/
+
+
+/**************SCROLL DOWN SIGN**********************/
+#scrolldown {
+  top:80%;
+  height: 100px;
+  margin-left: -50px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  width: 100px;
+  z-index: 100;
+}
+#scrolldown p {
+  font: 700 0.7em/1em 'Avenir',sans-serif;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  color: #F27270;
+}
+#scrolldown > p {
+  text-transform: uppercase;
+  text-indent: 3px;
+}
+.mouse {
+  border: 2px solid #F27270;
+  border-radius: 13px;
+  display: block;
+  height: 46px;
+  left: 50%;
+  margin: 10px 0 0 -13px;
+  position: absolute;
+  width: 26px;
+}
+.mouse span {
+  display: block;
+  font-size: 1.5em;
+  margin: 6px auto;
+}
+/*work on chrome/ opera/ safari*/
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+}
+/*standard syntax*/
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  };
+}

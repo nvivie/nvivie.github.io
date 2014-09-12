@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Christian Breton</title>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" type= "text/css" href="css/vendor/foundation.css">
+    <link rel="stylesheet" type= "text/css" href="css/workList.css">
+    <link rel="stylesheet" type= "text/css" href="css/slider.css">
+    <!-- <link rel="stylesheet" type= "text/css" href="css/vendor/jquery.multiscroll.css"> -->
+  </head>
+  <body>
+  <!--************ VERTICAL MENU ************-->
+    <nav id="menu" class="control-left">
+      <ul>
+        <li>
+          <a href="index.html" class="menu-active">
+            <i class="fa fa home"></i>Home
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa fa portoflio"></i>Portfolio<i class="fa fa-caret-down"></i>
+          </a>
+          <ul>
+            <li><a href="printbranding.html">Print | Branding</a></li>
+            <li><a href="interactive.html">Interactive</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="about.html">
+            <i class="fa fa about"></i>About
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html">
+            <i class="fa fa contact"></i>Contact
+          </a>
+        </li>
+      </ul>
+      <!--************  HAMBURGER ************-->
+      <div class="bt-menu-trigger" id="showMenu">
+        <span><img class="bt-menu-open" src="images/hamburger-v-01.svg"></span>
+      </div>
+    </nav>
+
+
+    <!--************ SLIDER POSTERS ************-->
+    <div class="slider-wrapper">
+      <div id="slider-content">
+        <div id="slider">
+          <div class="sp slider-poster" style="background-image: url('images/CB/CB1.jpg')"></div>
+          <div class="sp slider-poster" style="background-image: url('images/CB/CB2.jpg')"></div>
+          <div class="sp slider-poster" style="background-image: url('images/CB/CB3.jpg')"></div>
+          <div class="sp slider-poster" style="background-image: url('images/CB/CB4.jpg')"></div>
+        </div>
+      </div>
+      <div id="nav-slider">
+        <div class="pointer" id="button-previous"></div>
+        <div class="pointer" id="button-next"></div>
+      </div>
+    </div>
+
+    
+    <!--************ WORK CONTROLS ************-->
+    <nav class="control-right" id="works-control" >
+      <div class="control-content">
+        <div class="table">
+          <ul class="helper">
+            <li><a id="all-projects" href="printbranding.html">All projects</a></li>
+            <hr>
+            <li><a id="prev-project" href="converse.html">Previous project</a></li>
+            <hr>
+            <li><a id="next-project" href="qsld.html">Next project</a></li>
+          </ul>
+        </div>
+      </div>    
+    </nav>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <!-- <script src="js/vendor/jquery.multiscroll.min.js"></script> -->
+    <!-- // <script src="js/script.js"></script> -->
+    <script src="js/slider.js"></script>
+  </body>
+</html>
+
+
