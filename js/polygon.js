@@ -1,19 +1,5 @@
 $(function(){
 	'use strict';
-	
-	 // $('#js-plain').hover(
-  //         function() {
-
-  //           $('#js-wrapper').addClass('closed');
-  //         }, function() {
-  //           $('#js-wrapper').removeClass('closed');
-  //           console.log('skewed');
-  //         }
-  //       );       
-  //    $( 'ul.stuff' ).click(function() {
-  //    	console.log('fdfd');
-  // 		$(this).toggleClass( "active" );
-		// });
 
 
   var polygons = $('polygon');

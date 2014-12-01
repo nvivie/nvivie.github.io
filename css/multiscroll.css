@@ -9,24 +9,55 @@ html, body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	/*border-style: solid;
-	border-color: aqua;*/
-
 }
+/*********PRINT- THUMBNAIL*******/
+
+.interactive-thumbnail{
+ position: absolute;
+ margin: 0 auto;
+ text-align: center;
+ top: 30%;
+ left:35%;
+}
+
+
+.print-thumbnail{
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  top: 30%;
+  left: 35%;
+  transition: 0.3s ease;
+}
+
+
+/* .print-thumbnail:hover{
+
+  color: rgba(255,255,255, 0.1);
+  text-shadow: 0 0 1px rgba(255,255,255,0.4);
+  -shadow: 
+    0 0 5px rgba(255,255,255,0.2),
+    1px 1px 5px rgba(49,188,184,0.3),
+    -4px -1px 5px rgba(251,131,250,0.3);
+  }
+
+*/
+
+/*#Triangle:hover{
+
+    color: rgba(255, 255, 255,0.1);
+    text-shadow: 0 0 1px rgba(255, 255, 255,0.4);
+    box-shadow: 
+      0 0 5px rgba(255,255,255,0.2),
+      1px 1px 5px rgba(49, 188, 184,0.3),
+      -1px -1px 5px rgba(251, 131, 250,0.3);
+  
+}*/
+
+
 
 
 /**************************POLYGONE**************************/
-
-
-.print-polygon{
-margin: 0 auto;
-top: 8%;
-position: absolute;
-z-index: 99;
-text-align:center;
- max-width: 100%;
- width: 100%;
-}
 
 .interactive-polygon{
 margin: 0 auto;
@@ -38,23 +69,14 @@ text-align:center;
  width: 100%;
 }
 
-.hello{
-  /*display: none;*/
-  position: absolute;
-  z-index: 99;
-  width: 80%;
-  top: 30%;
-  left: 10%;
-  margin: 0 auto;
-  text-align: center;
-  max-width: 100%;
-  /*transform: skew(10deg,-40deg );*/
-/*  border: 1px solid yellow;*/
-}
-
-#hello-svg{
-  width: 100%;
-  height: auto;
+.print-polygon{
+margin: 0 auto;
+top: 3%;
+position: absolute;
+z-index: 99;
+text-align:center;
+ max-width: 100%;
+ width: 100%;
 }
 
 
@@ -105,14 +127,39 @@ text-align:center;
 
 
 /*****------First Multiscroll band (BIG IMAGE)------*******/
-#image-home {
-	background-color: #09012a;
-	height: 700px;
-	width: 100%;
-}
 
 .ms-left .ms-section{
 	background-color: #09012a;
+}
+
+.ms-right .section1{
+background-image: url(../images/white-noline-right-01.jpg);
+background-repeat: no-repeat;
+background-position: right;
+background-size: auto;
+/*
+    position: relative;
+  width: 100%;
+  height: 100%;
+   /* Preserve aspet ratio */
+/*   max-width: 100%;
+  min-width: 90%;
+  min-height: 100%;
+
+  background-attachment: fixed;*/
+  border: 1px solid red;
+}
+
+.ms-left .section1{
+background-image: url(../images/white-noline-left-01.jpg);
+background-repeat: no-repeat;
+background-position: left;
+background-size: auto;
+}
+
+.ms-section.ms-table{
+  display: table;
+  width: 100%;
 }
 
 
@@ -120,7 +167,7 @@ text-align:center;
  	background-color: white;
 }
 
-div.ms-right{
+section.ms-right{
   right: 0px !important;
 }
 
@@ -129,7 +176,7 @@ div.ms-right{
   width: 100%;
   height: 100%;
    /* Preserve aspet ratio */
-   max-width: 100%;
+  max-width: 100%;
   min-width: 100%;
   min-height: 100%;
   background-size: contain;
@@ -138,64 +185,17 @@ div.ms-right{
 /*  background-size: auto;*/
 }
 
-.landscape-secondpage{
+.landscape-portfolio{
 width: 100%;
 }
 
-/*********PRINT- THUMBNAIL*******/
 
-.print-thumbnail{
-  position: absolute;
-  margin: 0 auto;
-  text-align: center;
-  top: 35%;
-  left: 35%;
-  transition: 0.3s ease;
-}
-
-
-/* .print-thumbnail:hover{
-
-  color: rgba(255,255,255, 0.1);
-  text-shadow: 0 0 1px rgba(255,255,255,0.4);
-  -shadow: 
-    0 0 5px rgba(255,255,255,0.2),
-    1px 1px 5px rgba(49,188,184,0.3),
-    -4px -1px 5px rgba(251,131,250,0.3);
-  }
-
-*/
-
-.interactive-thumbnail{
- position: absolute;
- margin:0 auto;
- text-align: center;
- top: 35%;
- left:35%;
-/*border:1px solid aqua;*/
-}
-
-
-/*#Triangle:hover{
-
-    color: rgba(255, 255, 255,0.1);
-    text-shadow: 0 0 1px rgba(255, 255, 255,0.4);
-    box-shadow: 
-      0 0 5px rgba(255,255,255,0.2),
-      1px 1px 5px rgba(49, 188, 184,0.3),
-      -1px -1px 5px rgba(251, 131, 250,0.3);
-  
-}*/
-
-
-#dash-above  {
- /* display: none; */}
 
 /**************END OF MULTISCROLL*********************/
 
 
 /**************SCROLL DOWN SIGN**********************/
-#scrolldown {
+/*#scrolldown {
   top:80%;
   height: 100px;
   margin-left: -50px;
@@ -237,7 +237,7 @@ width: 100%;
   margin: 6px auto;
 }
 /*work on chrome/ opera/ safari*/
-@-webkit-keyframes scroll {
+/*@-webkit-keyframes scroll {
   0% {
     opacity: 1;
     -webkit-transform: translateY(0px);
@@ -250,7 +250,7 @@ width: 100%;
   }
 }
 /*standard syntax*/
-@keyframes scroll {
+/*@keyframes scroll {
   0% {
     opacity: 1;
     transform: translateY(0px);
@@ -259,4 +259,4 @@ width: 100%;
     opacity: 0;
     transform: translateY(10px);
   };
-}
+}*/
